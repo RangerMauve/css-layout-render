@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<title>css-layout-render</title>
+<style>
+	body {
+		font-family: Helvetica;
+	}
+	pre,
+	textarea {
+		tab-size: 2;
+	}
+	textarea,
+	button,
+	svg {
+		display: block;
+		margin: 10px auto;
+	}
+	textarea {
+		width: 100%;
+		min-height: 600px;
+	}
+</style>
+<h1>css-layout render test</h1>
+<main></main>
+<textarea></textarea>
+<button>Update</button>
+<pre id="error"></pre>
+<h2>Raw SVG image output</h2>
+<pre id="raw_image"></pre>
+<h2>Raw JSON for nodes</h2>
+<pre id="raw_nodes"></pre>
+<script src="bundle.js"></script>

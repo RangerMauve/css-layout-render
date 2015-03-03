@@ -1,0 +1,35 @@
+{
+  "name": "css-layout-render",
+  "version": "1.0.0",
+  "description": "Renders out an SVG image from the layout generated from Facebook's css-layout library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "example": "browserify example/index.js -o example/bundle.js",
+    "watch-example": "watchify example/index.js -o example/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/RangerMauve/css-layout-render.git"
+  },
+  "keywords": [
+    "css",
+    "layout",
+    "render",
+    "dom"
+  ],
+  "author": "rangermauve",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/css-layout-render/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/css-layout-render",
+  "dependencies": {
+    "css-layout": "0.0.1",
+    "par": "^0.3.0"
+  },
+  "devDependencies": {
+    "browserify": "^9.0.3",
+    "watchify": "^2.4.0"
+  }
+}
