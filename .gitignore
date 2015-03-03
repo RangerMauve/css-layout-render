@@ -28,5 +28,4 @@ node_modules
 .lock-wscript
 
 # For browserify/watchify
-bundle.js
 .bundle.js
